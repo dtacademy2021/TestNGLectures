@@ -1,0 +1,7 @@
+#example of a gitignore file
+
+/bin/
+/screenshots/
+/test-output/
+
+
