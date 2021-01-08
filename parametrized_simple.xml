@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Running parametrized test">
+
+
+	<test thread-count="5" name=" Running parametrized test">
+
+
+		<parameter name="url" value="http://secure.smartbearsoftware.com/samples/TestComplete12/WebOrders/Login.aspx" />
+		<parameter name="user" value="Tester" />
+		<parameter name="pass" value="test" />
+
+		<classes>
+
+			<class name="january7.ParametrizedTests" />
+
+
+		</classes>
+
+
+
+	</test> <!-- Test -->
+
+
+
+
+
+
+</suite> <!-- Suite -->
